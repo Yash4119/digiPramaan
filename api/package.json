@@ -1,0 +1,18 @@
+{
+  "name": "digi-pramaan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartikey Singh",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "pdfkit": "^0.14.0",
+    "puppeteer": "^21.10.0"
+  }
+}

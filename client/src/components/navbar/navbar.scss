@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+    img{
+        height: 260px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}

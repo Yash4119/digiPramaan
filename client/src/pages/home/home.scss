@@ -1,0 +1,79 @@
+.home{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .left-content{
+        display: flex;
+        flex-direction: column;
+        .heading{
+            font-size: 80px;
+            letter-spacing: -6px;
+            font-weight: 500;
+            line-height: 60px;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: fadeIn 1s ease-in-out forwards 0.2s;
+        }
+        .sub-text{
+            margin-top: 100px;
+            width: 60%;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: fadeIn 1s ease-in-out forwards 0.5s;
+        }
+        .button-wrapper{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            // flex
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: fadeIn 1s ease-in-out forwards 0.8s;
+            button{
+                padding: 10px 30px;
+                border: solid 3px yellow;
+                background-color: transparent;
+                color: white;
+                font-weight: 900;
+                cursor: pointer;
+                font-size: 18px;
+                transition: all ease .5s;
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                }
+            }
+        }
+    }
+    .right-images{
+        position: relative;
+        width: 45%;
+        height: 400px;
+        img{
+            position: absolute;
+        }
+        .img-b{
+            top: -100px;
+            left: 80px;
+            height: 400px;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: imageIntro 1s ease-in-out 0.2s;
+        }
+        .img-m{
+            border-radius: 50%;
+            height: 380px;
+            top: 0px;
+            left: -50px;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: imageIntro 1s ease-in-out 0.5s;
+        }
+        .img-f{
+            left: -60px;
+            bottom: 20px;
+            height: 100px;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: imageIntro 1s ease-in-out 0.8s;
+        }
+    }
+}

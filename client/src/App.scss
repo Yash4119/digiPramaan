@@ -1,0 +1,67 @@
+:root{
+  --light-pink: #ee8feb;
+  --strong-red: rgb(160, 53, 53);
+  --strong-pink: #AF47AB;
+  --very-light-pink: #FEE3FF;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Telegraf';
+  box-sizing: border-box;
+}
+html, body, #root{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: url('./fonts/PPTelegraf-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Telegraf-bold';
+  src: url('./fonts/PPTelegraf-UltraBold.otf') format('opentype');
+}
+.page{
+  padding: 5%;
+  min-height: calc(100% - 100px);
+}
+/* Change the main scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+/* Change the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background-color: rgb(43, 43, 43);
+}
+
+/* Change the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(yellow, rgb(255, 243, 193), rgb(255, 114, 253)); 
+}
+
+/* Optional: Change the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 255, 139); /* Adjust the color on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes imageIntro{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
